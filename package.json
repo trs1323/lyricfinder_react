@@ -10,6 +10,7 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
+  "main": "index.html",
   "homepage": "https://trs1323.github.io/lyric-finder",
   "scripts": {
     "deploy": "gh-pages -d build",

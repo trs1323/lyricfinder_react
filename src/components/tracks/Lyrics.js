@@ -12,7 +12,7 @@ class Lyrics extends Component {
     componentDidMount() {
         axios.get(`https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/track.lyrics.get?track_id=${this.props.match.params.id}&apikey=${process.env.REACT_APP_MM_KEY}`)
             .then(res => {
-                //console.log(res.data);
+                console.log(res.data);
                 this.setState({ lyrics: res.data.message.body.lyrics })
 
                 return axios.get(`https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/track.get?track_id=${this.props.match.params.id}&apikey=${process.env.REACT_APP_MM_KEY}`)
@@ -32,7 +32,7 @@ class Lyrics extends Component {
         } else {
             return (
                 <React.Fragment>
-                    <Link to="/" className="btn btn-dark btn-sm mb-4">Go Back</Link>
+                    <Link to='https://trs1323.github.io/lyricfinder_react/' className="btn btn-dark btn-sm mb-4">Go Back</Link>
                     <div className="card">
                         <h5 className="card-header">
                             {track.track_name} by <span className="text-secondary">{track.artist_name}</span>

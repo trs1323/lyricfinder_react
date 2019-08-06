@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7bc34b5dbf79ab4f9f9a742b202a89e3",
+    "revision": "8e2b087ee518c6d7e11cd51cc4507114",
     "url": "/lyricfinder_react/index.html"
   },
   {
-    "revision": "29b130909163449cf5b5",
+    "revision": "314ca5b399a49009bb6e",
     "url": "/lyricfinder_react/static/css/main.36497136.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lyricfinder_react/static/js/2.4c7503a7.chunk.js"
   },
   {
-    "revision": "29b130909163449cf5b5",
-    "url": "/lyricfinder_react/static/js/main.671ad596.chunk.js"
+    "revision": "314ca5b399a49009bb6e",
+    "url": "/lyricfinder_react/static/js/main.43b70171.chunk.js"
   },
   {
     "revision": "60effee186faac117511",

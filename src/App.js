@@ -18,7 +18,7 @@ class App extends Component {
             <Navbar />
             <div className="container">
               <Switch>
-                <Route exact path='/' component={Index} />
+                <Route path={process.env.PUBLIC_URL + '/'} component={Index} />
                 <Route exact path="/lyrics/track/:id" component={Lyrics} />
               </Switch>
             </div>

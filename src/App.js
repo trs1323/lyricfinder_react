@@ -19,7 +19,7 @@ class App extends Component {
             <div className="container">
               <Switch>
                 <Route path={process.env.PUBLIC_URL + '/'} component={Index} />
-                <Route exact path="/lyrics/track/:id" component={Lyrics} />
+                <Route path={process.env.PUBLIC_URL"/lyrics/track/:id"} component={Lyrics} />
               </Switch>
             </div>
           </React.Fragment>
